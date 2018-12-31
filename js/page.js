@@ -150,7 +150,7 @@ function formatText(text) {
 function appendChapter(arr) {
   if (!arr[7] || arr[7] === 'Edit') return;
   const container = document.getElementById('contentbwrap');
-  const htmlText =
+  container.innerHTML +=
     `<article class="hentry page post">
        <header class="entry-header">
           <div>
@@ -166,15 +166,6 @@ function appendChapter(arr) {
           </span>
         </div>
     </article>`;
-  container.innerHTML += htmlText;
 }
 
 window.onload = loadChapters;
-
-
-const articles = [
-  {
-    "header": "Moscow: 12:34",
-    "text": ""
-  }
-];
