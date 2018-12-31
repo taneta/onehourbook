@@ -143,7 +143,7 @@ function formatHeader(place, time, date) {
 
 
 function formatText(text) {
-  const ps = text.split('\n\n').filter(x => !!x);
+  const ps = text.split('\n\n').filter(x => !!x).map(s => s.replace('\n', '<br>'));
   return `<p>${ps.join('</p><p>')}</p>`;
 }
 

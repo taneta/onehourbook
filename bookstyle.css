@@ -7820,6 +7820,7 @@ h2.date-header {
 }
 
 .page {
+    page-break-after: always;
     padding-top: 96px;
     padding-bottom: 96px;
     background: #fff;
