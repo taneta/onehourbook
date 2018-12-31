@@ -459,7 +459,6 @@ background: url('//4.bp.blogspot.com/-muzqu1uiJaE/Vt6Sw9z4SKI/AAAAAAAAAP4/bjoDgb
 .site-contentbwrap {
 padding: 12px 10px;
 position: relative;
-margin-bottom: -65px;
 /*background: #fff;
 -webkit-border-radius: 5px;
 -moz-border-radius: 5px;
@@ -1297,8 +1296,4 @@ box-shadow: 0 0 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 .published{
     background: #fff;
     padding: 0 10px;
-}
-.site-footerbwrap{
-margin-top: 200px !important;
-    
 }
