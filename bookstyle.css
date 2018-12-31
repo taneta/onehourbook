@@ -7844,6 +7844,11 @@ h2.date-header {
     display: inline-block;
 }
 
+/* hack for header */
+.navbwrap > li {
+    display: inline-block;
+}
+
 @media (max-width: 512px) {
     .post {
         padding: 96px 8px;
