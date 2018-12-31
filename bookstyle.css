@@ -511,9 +511,8 @@ right: 0;
 }
 .hentry,
 .not-found {
-padding: 90px 0 30px 30px;
-position: relative;
-z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 .sticky {
 }
@@ -1267,8 +1266,8 @@ color: #666666;
 }
 
 .post {
-margin-bottom: 40px;
-    padding: 15% 5% 15% 15%;
+    margin-bottom: 40px;
+    padding: 30px;
 }
 
 
@@ -1280,13 +1279,13 @@ margin-bottom: 40px;
     min-height: 350px;
 }
 .page{
-background: #fff;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
--webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
--moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 .post_city{
     text-align: center;
