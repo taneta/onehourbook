@@ -6409,7 +6409,7 @@ body {
     font-weight: 400;
     font-family: Karla, Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background: #e8e8e8 url('//4.bp.blogspot.com/-uQRWFceEuSc/Vt6SwSVlM7I/AAAAAAAAAPw/lA3s8oF7zdM/s000/bg-site.gif');
+    background: #e8e8e8;
 }
 
 /* Headings */
@@ -6472,9 +6472,6 @@ a:hover {
 }
 
 /* Typography */
-p {
-    margin-bottom: 1em;
-}
 
 blockquote p {
     font-size: 18px;
